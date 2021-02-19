@@ -13,9 +13,9 @@ public class Study6 {
 		//6-2
 		if (bmi >= 0 && bmi <= 18.5) {
 			System.out.println("’á‘Ìd");
-		} else if (bmi >= 18.5 && bmi <= 25) {
+		} else if (bmi <= 25) {
 			System.out.println("•W€");
-		} else if (bmi >= 25 && bmi <= 30) {
+		} else if (bmi <= 30) {
 			System.out.println("”ì–");
 		}
 	}

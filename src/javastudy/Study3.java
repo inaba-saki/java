@@ -14,9 +14,9 @@ public class Study3 {
 		age = 20 ;
 		if (age > 0 && age < 20) {
 			System.out.println("–¢¬”N");
-		} else if (age > 19 && age < 30) {
+		} else if (age < 30) {
 			System.out.println("‚Q‚O‘ã");
-		} else if (age >= 30 && age < 40) {
+		} else if (age < 40) {
 			System.out.println("‚R‚O‘ã");
 		} else {
 			System.out.println("‚S‚O‘ãˆÈã");
