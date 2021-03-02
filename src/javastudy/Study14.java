@@ -13,23 +13,23 @@ public class Study14 {
 		  Random r = new Random();
 //		  ０：グー、１：チョキ、２：パー
 		  String [] number = {"グー","チョキ","パー"};
-		  int n = r.nextInt(number.length);
 		  int count = 0;
 		  while(count < 1) {
-		  int x = scanner.nextInt();
-		  if (x == n) {
-			  System.out.println(number[n]);
-			  System.out.println("あいこ");
-  		  } else if((x == 0 && n == 1) || (x == 1 && n == 2) || (x == 2 && n == 0) ) {
-			  System.out.println(number[n]);
-			  System.out.println("あなたの勝ち");
-			  count++;
-		  } else if((x == 0 && n == 2) || (x == 1 && n == 0) || (x == 2 && n == 1)) {
-			  System.out.println(number[n]);
-			  System.out.println("あなたの負け");
-			  count++;
+			  int n = r.nextInt(number.length);
+			  int x = scanner.nextInt();
+			  if (x == n) {
+				  System.out.println(number[n]);
+				  System.out.println("あいこ");
+	  		  } else if((x == 0 && n == 1) || (x == 1 && n == 2) || (x == 2 && n == 0) ) {
+				  System.out.println(number[n]);
+				  System.out.println("あなたの勝ち");
+				  count++;
+			  } else if((x == 0 && n == 2) || (x == 1 && n == 0) || (x == 2 && n == 1)) {
+				  System.out.println(number[n]);
+				  System.out.println("あなたの負け");
+				  count++;
+			  }
 		  }
-		  }
-	  }
+	}
 
 }
