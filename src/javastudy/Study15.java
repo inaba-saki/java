@@ -9,7 +9,6 @@ public class Study15 {
 		// TODO Auto-generated method stub
 //		2-2,2-3
 		  Scanner scanner = new Scanner(System.in);
-		  Scanner s = new Scanner(System.in);
 		  Random random = new Random();
 	//		  ０：グー、１：チョキ、２：パー
 		  String [] number = {"グー","チョキ","パー"};

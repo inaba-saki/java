@@ -10,7 +10,7 @@ public class Study13 {
 		Random r = new Random();
 		int count = 0;
 		while(true) {
-			int number = r.nextInt(6);
+			int number = r.nextInt(6)+1;
 			if(number == 1) {
 				System.out.println("‘å‹g");
 				count++;
